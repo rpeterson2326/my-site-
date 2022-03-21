@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>contact.html</title>
+<!-- TemplateEndEditable -->
+<link href="/assets/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/qfv1mcl.css">	
+<link rel="stylesheet" href="https://use.typekit.net/qfv1mcl.css">	
+<link rel="stylesheet" href="https://use.typekit.net/qfv1mcl.css">
+<!-- TemplateBeginEditable name="head" -->
+	
+	<style type="text/css">
+	
+	</style>
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="container">
+  <header></header>
+  <nav>
+	 <ul>
+	 <li><a href="file:///Macintosh HD/Users/rpeterson2326/Creative Cloud Files/my_portfolio/about-2copy.html">About</a></li> 
+	  <li><a href="file:///Macintosh HD/Users/rpeterson2326/Creative Cloud Files/my_portfolio/blog-1.html">Blog</a></li>
+	  <li><a href="/pages/gallery.html">Gallery</a></li>
+	  <li><a href="file:///Macintosh HD/Users/rpeterson2326/Creative Cloud Files/my_portfolio/contact-1.html">Contact</a></li>
+	  
+	  
+	  </ul>	
+	</nav>
+  <aside>
+     <h3>I'm a woman, a sophomore,I'm in the AOIT program ,and I also wear glasses.</h3>
+
+    <h3>Rachel Peterson  </h3>
+  </aside>
+	  <!-- TemplateBeginEditable name="main-content" -->
+	<main>
+
+   <h1>Page Title</h1>
+</main>
+		<!-- TemplateEndEditable -->
+  <footer> Content for New footer Tag Goes Here</footer>
+</div>
+</body>
+</html>

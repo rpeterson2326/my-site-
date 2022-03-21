@@ -1,0 +1,289 @@
+body {
+    color: #191919;
+    font-famliy: "Gil Sans MT", "Myriag Pro", "DejaVuSans Condesed"
+	sans-serif;
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-image: url(../images/red_background.jpg);             
+}
+h1 {
+    color: #700002;
+    font-family: politica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	
+   
+}
+
+
+p{
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+
+header {
+    width: 1280px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/logo2.jpg);    
+}
+#container{
+	
+	width: 1280px;
+	height: auto;
+	background-color:black;
+	margin: auto;
+	}
+
+main{
+    height: 1600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 14pt;
+    width: 1100px;
+    text-align: left;
+    float: left;
+}
+#container main article {
+}
+img {
+    text-align:left;
+    float: left;
+	
+}
+aside {
+    width: 150px;
+    height: 600px;
+    text-align: left;
+   
+}
+
+
+footer {
+	width: 1280px;
+	height: 600px;
+	 background-color: #700002;
+}
+/*Float the Aside so it displays next to Main*/
+body aside {
+    width: 150px;
+    float: left;
+    height: 600px;
+    clear: both;
+	 background-color: #700002;
+}
+
+footer {
+    clear: both;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+	 padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+h3 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+h1 {
+    font-size: 25pt;
+}
+
+
+img {
+    float: right;
+}
+
+.floatleft{
+	float: left;
+}
+
+article {
+    margin-bottom: 30px;
+}
+img {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+nav {
+    width: 1280px;
+    height: 50px;
+}
+
+
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin-right: 60px;
+    font-family: neonoir, sans-serif;
+    font-size: 18pt;
+    margin-left: 0px;
+}
+#container nav ul {
+	margin: auto;
+	width: 565px;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #700002;    
+	
+}
+nav a:hover {
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #EA0206;
+    color: #FFFFFF;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #B6292C;    
+}
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+}
+.sum {
+}
+.submit_btn {
+    width: 170px;
+    height: 30px;
+  
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.submit_btn:hover {
+-webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;	
+}
+
+
+body blockquote {
+    clear: both;
+}
+body img {
+    float: left;
+}
+body h1 {
+    clear: both;
+}
+.column {
+    width: 250px;
+    height: 750px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+
+#container ul li {
+    color: #FFFFFF;
+}
+.cclicense {
+    width: 500px;
+    height: 20px;
+    padding: 50px 0px 0px 0px;
+    clear: both;
+}
+video {
+    width: 600px;
+    margin: auto;
+    height: 600px;
+    float: right;
+}
+/*rules the page will follow for Tablet sized devices */
+@media (max-width: 1024px){
+    #container{
+        width: 768px;
+    }
+    header {
+        width: 768px;
+    }
+    nav{
+        width: 768px;
+    }
+    main {
+        width: 598px;
+        height: 2500px;
+    }
+    footer {
+        width: 768px;
+    }
+    .column {
+        margin: 0px 20px 0px 25px
+    }
+}
+
+/*rules the page will follow on mobile devices */
+@media screen and (max-width:375px){
+         #container{
+        width: 300px;
+    }
+    header {
+    width: 300px;
+    background-image: url(../images/logo2_300px.jpg);           
+    }
+    nav{
+        width: 300px;
+        height: 200px;
+        position: static;
+    }
+    main {
+        width: 280px;
+    }
+    footer {
+        width: 300px;
+    }
+    
+    aside {
+        display: none;
+    }
+    	#container nav li {
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	margin: 0px 0px 20px 0px;
+	width: 260px;
+	text-align: center;	
+	
+}
+	
+	#container nav ul {
+	width: 260px;
+}
+
+	nav a:link {
+	display: block;
+	width: 200px;
+	background-color: #700002;
+	color: black;
+	}
+	
+	nav a:visited {
+	text-decoration: none;
+	color: black;
+
+    }
+}

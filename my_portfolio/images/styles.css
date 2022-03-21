@@ -1,0 +1,176 @@
+body {
+    color: #191919;
+    font-famliy: "Gil Sans MT", "Myriag Pro", "DejaVuSans Condesed"
+	sans-serif;
+    font-size: 14px;
+    background-image: url(project%202/images/bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+h1 {
+    color: #6CE7FF;
+font-family: politica, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+p{
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#container{
+	
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+	}
+header {
+    width: 768px;
+    height: 250px;
+
+    background-image: url(project%202/images/header.jpg);
+}
+
+main{
+    height: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 14pt;
+    width: 598px;
+    text-align: left;
+    float: left;
+}
+#container main article {
+}
+img {
+    text-align:left;
+    float: left;
+	
+}
+aside {
+    width: 150px;
+    height: 600px;
+    text-align: left;
+}
+main article h1 {
+}
+
+footer {
+	width: 768px;
+	height: 600px;
+	
+}
+/*Float the Aside so it displays next to Main*/
+body aside {
+    width: 150px;
+    float: left;
+   background-color:#646464;
+    height: 600px;
+    clear: both;
+}
+
+footer {
+    clear: both;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+	 padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+h3 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+h1 {
+    font-size: 25pt;
+}
+
+
+img {
+    float: right;
+}
+
+.floatleft{
+	float: left;
+}
+
+article {
+    margin-bottom: 30px;
+}
+img {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+h3 {
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+nav ul li {
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin-right: 60px;
+    font-family: neonoir, sans-serif;
+    font-size: 18pt;
+    margin-left: 0px;
+}
+#container nav ul {
+	margin: auto;
+	width: 565px;
+}
+
+nav a:link {
+    color: #65EBFB;
+    text-decoration: none;
+	
+	
+}
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+	background-color: #65EBFB;
+	border-radius: 20px;
+}
+nav a:visited {
+    color: #5F2575;
+    text-decoration: none;
+}
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+}
+.sum {
+}
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    background-color: #65ECFC;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.submit_btn:hover {
+-webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;	
+}
